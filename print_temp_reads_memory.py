@@ -2,7 +2,7 @@ import machine
 import utime
 import time
 from time_formatter import TimeFormatter
-from file_writer import write_to_file
+from file_writer_to_sd import write_to_file
 from led_util import ONBOARDLED
 
 def temperature_logger():
