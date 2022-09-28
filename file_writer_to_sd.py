@@ -1,7 +1,13 @@
 import machine
 import sdcard
 import uos
-
+"""
+Reference video with pinout 
+https://www.youtube.com/watch?v=JrYT7aJnP_I
+https://github.com/garyexplains/examples/tree/master/Raspberry%20Pi%20Pico/sdcard_spi
+backup link:
+https://drive.google.com/file/d/1SFXGq-gllY5bWEF9OoG6Rt9Z9Xxbtv5W/view?usp=sharing
+"""
 # Assign chip select (CS) pin (and start it high)
 cs = machine.Pin(1, machine.Pin.OUT)
 
